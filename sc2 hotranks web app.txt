@@ -1,0 +1,28 @@
+sc2 hotranks todo/notes:
+-learn django framework
+-learn database design & schema (SQL)
+-learn about website hosting & file storage/uploading
+-learn about creating apis to: (1) player identification; (2) others
+-read sc2reader documentation & play with it
+-...
+-purchase domain & hosting/SSL cert?
+-all important game data comes from the replays themselves and APIs do not allow you to directly access other players' BOs from match history
+-there are two powerful sc2 replay utilities available in python (sc2reader and spawningtool) -> just use sc2reader as the documentation is more robust and gives an opportunity to build something like spawning tool (bonus points for learning)
+-want to create something novel -> (1) Build a replay database to profile players and playstyles 
+				   (2) Use a combination of username/profileID & machine learning model(later) using sc2reader events (selection/hotkey/camera)
+					to identify players
+				   (3) Create a recommendation system that searches the above database to suggest builds/playstyles to counter the current opponent/learn from losses
+					-measure how well a game was played by: army value & trades, economy & overall macro -> use to recommend an optimal or "best" response
+					-determine what technologies/algorithms are relevant to doing this and copy the pattern
+				   (4) Show game stats afterwards & identify problem areas -> use sc2replaystats as a model but cut out unnecessary details
+					-eapm & apm (speed)
+					-spending quotient -> learn about this (macro)
+					-supply blocks (macro)
+					-expansion timings (macro)
+					-upgrade timings (macro)
+					-engagements (army values and trades, attack timings, etc)
+					-...
+
+
+Overall, two main functions: (1)Pregame identification coupled with putting a player on a build (searching database for player and matchup history)
+			     (2)Postgame Analysis
