@@ -1,0 +1,14 @@
+make MMR tiers
+make profiles for users and pros (add MMR, league, race, replay list, pro stats (if applicable), win rates, tournament wins, career winnings, teams, start dates, etc.) 
+pay pros monthly for replays to extract build orders/styles -> draw hardcore users in
+take community voted replays/build orders -> draw more casual scene
+scrub out chat from replays to protect against cancel culture/exposing people for behavior -> focus on the gameplay to help players learn the game fast
+use replay database to classify playstyles and determine (using stats) which playstyles are best vs unique strategies or unit compositions -> 
+use the above to search for player pregame and learn their playstyles
+somehow run a client in a browser to play through the replays on the site???
+
+
+later:
+clan/team pages
+include matcherino api for clan organized tournaments -> check with teamliquid
+use blizzard api to pull player stats for profiles.
